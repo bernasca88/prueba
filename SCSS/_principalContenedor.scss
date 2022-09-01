@@ -1,0 +1,24 @@
+.principalContenedor{
+    display: grid;
+    grid-template-areas: 
+    
+    "navegador navegador navegador navegador"
+    "contenidoDis contenidoDis contenidoDis contenidoDis"
+    "carruselDis carruselDis carruselDis carruselDis"
+
+    "carruselEjec carruselEjec carruselEjec carruselEjec"
+    "contenidoEjec contenidoEjec contenidoEjec contenidoEjec"
+
+    "contenidoMant contenidoMant contenidoMant contenidoMant"
+    "carruselMant carruselMant carruselMant carruselMant"
+
+    "formulario formulario formulario formulario"
+    "formulario formulario formulario formulario"
+
+
+    "contenido contenido contenido contenido"
+    "contenido contenido contenido contenido"
+    "pie pie pie pie"
+    ;
+}
+

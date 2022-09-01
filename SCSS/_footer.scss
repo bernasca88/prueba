@@ -1,0 +1,46 @@
+footer{
+    grid-area: pie;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color_pie;
+    margin-top: 40px;
+
+
+    .piePagina {
+    
+        ul{
+            margin-top: 15px;
+            text-decoration: none;
+            list-style-type: none;
+            
+            li{
+                display: inline-block;
+                justify-content: space-around;
+
+                img{
+                    width: 30px;
+                    height: 30px;
+                    padding: auto;
+                    
+                }   
+            }
+        }
+        img:hover{
+            width: 45px;
+            height: 45px;
+            transition: width 0.3s, height 0.3s;
+        }
+    }
+
+
+
+        .hechoPor {
+            p{
+            font-family: $texto_01;
+            color: $color_letra;
+            font-size: 1rem;
+            margin: 0px 20px 0px 0px;
+            }
+        }
+}

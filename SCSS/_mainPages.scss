@@ -1,0 +1,163 @@
+
+/* DISEÑO */
+.mainDiseño{
+    grid-area: contenidoDis;
+    border-radius: 3px;
+    height: 10%;
+    margin: 20px 10px 20px 10px;
+
+    .card {
+        
+        font-family: $texto_01;
+        font-size: small;
+        .textoDiseño {
+            font-size: large;
+
+        }
+    }
+}
+
+.slyderDiseño { 
+    grid-area: carruselDis;
+    width:  98.5%;
+    margin: 20px 10px 20px 10px ;
+    
+    
+}
+
+
+
+
+/* EJECUCION */
+
+.mainEjecucion{
+    grid-area: contenidoEjec;
+    border-radius: 3px;
+    height: 10%;
+    margin: 20px 10px 20px 10px ;
+
+    .card {
+        
+        font-family: $texto_01;
+        font-size: small;
+        .textoDiseño {
+            font-size: large;
+
+        }
+    }
+}
+
+.slyderEjecucion { 
+    grid-area: carruselEjec;
+    width:  98.5%;
+    margin: 20px 10px 20px 10px ;
+    
+    
+}
+
+/* MANTENIMIENTO */
+
+.mainMant{
+    grid-area: contenidoMant;
+    border-radius: 3px;
+    height: 10%;
+    margin: 20px 10px 20px 10px ;
+
+    .card {
+        
+        font-family: $texto_01;
+        font-size: small;
+        .textoDiseño {
+            font-size: large;
+
+        }
+    }
+}
+
+.slyderMant { 
+    grid-area: carruselMant;
+    width:  98.5%;
+    margin: 20px 10px 20px 10px ;
+    
+    
+}
+
+
+/* CONTACTOS */
+
+
+.formulario {
+
+    grid-area: formulario;
+    width: 450px;
+
+    background: $color_seccion;
+    opacity: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #acF2e9;
+    font-family: $texto_01;
+        h2 {
+        text-align: center;
+        margin-bottom: 40px; 
+        margin-top: 30px; 
+    
+    }
+
+    input, textarea {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 17px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-size: 17px;
+        border: #acf2e9;
+        }
+        input:hover {
+            font-size: medium;
+            border-radius: 5px;
+        }
+
+        textarea {
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 90%;
+        }
+        textarea:hover {
+            font-size: medium;
+            border-radius: 5px;
+        }
+
+        #envio {
+            background-color:$color_nav;
+            margin-top: 20px;
+
+        }
+        #envio:hover {
+            font-size: x-large;
+            border-radius: 5px;
+        }
+}
+/* ----------------------------------------------- */
+
+@media (max-width:768px)
+{
+
+
+.carousel {
+    display: none;
+}
+
+
+.cardLista {
+    display: none;
+}
+
+}
+
+
+

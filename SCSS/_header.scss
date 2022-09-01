@@ -1,0 +1,35 @@
+
+header{
+    grid-area: navegador;
+    font-family: $texto_01;
+    font-size: large;
+    font-weight: 1000;
+    background-color: $color_nav;
+    position: sticky; 
+    top: 0;
+    z-index: 1;
+    .container{
+        margin-left: 0%;
+        padding-left: 0%;
+
+
+    }
+} 
+
+a:hover {
+    font-size: x-large;
+    border-radius: 5px;
+
+}
+
+
+@media (max-width:320px)
+{
+    .navegacion {   
+        font-size: small;
+    }
+.logo {
+    display: none;
+}
+
+}
